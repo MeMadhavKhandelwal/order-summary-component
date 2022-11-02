@@ -1,0 +1,122 @@
+body{
+  font-family: "Red Hat Display";
+  margin: 0;
+  background-image: url("images/pattern-background-desktop.svg");
+  text-align: center;
+}
+p{
+  font-size: 1rem;
+}
+h1{
+  font-size: 1.5rem;
+  margin: 10% auto;
+  font-weight: 900;
+}
+.main-container{
+  background-color: hsl(225, 100%, 98%);
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem auto;
+  width: 25%;
+  border-radius: 20px;
+}
+.description{
+  color: hsl(224, 23%, 55%);
+  margin: 0 auto 10%;
+  width: 75%;
+  line-height: 1.2;
+}
+.price{
+  color: hsl(224, 23%, 55%);
+}
+.plan{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan-with-price{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+.annual-plan{
+  font-weight: 700;
+}
+
+/* Images And Icons */
+.main-image{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.music{
+  margin-right: 11%;
+}
+/* Buttons And Anchor Tags */
+.change{
+  color: hsl(245, 75%, 52%);
+  border: none;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.change:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
+.payment{
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 94%);
+  border: none;
+  padding: 1rem 5.2rem;
+  border-radius: 12px;
+  margin: 10% auto 8%;
+  font-weight: 900;
+}
+.payment:hover{
+  opacity: 0.5;
+}
+.cancel{
+  background-color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  border: none;
+  margin: 0 auto 5%;
+  font-weight: 700;
+}
+.cancel:hover{
+  color: hsl(223, 47%, 23%);
+}
+  .attribution { font-size: 16px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 400px) {
+  .main-container{
+    height: 90%;
+    width: 80%;
+  }
+  .payment{
+    width: 90%;
+    padding: 0.8rem 5rem;
+  }
+  .plan{
+    display: inline-flex ;
+    width: 50%;
+  }
+  .description{
+    width: 85%;
+  }
+}
+
+/*
+  ### Primary
+
+  - Pale blue: hsl(225, 100%, 94%)
+  - Bright blue: hsl(245, 75%, 52%)
+
+  ### Neutral
+
+  - Very pale blue: hsl(225, 100%, 98%)
+  - Desaturated blue: hsl(224, 23%, 55%)
+  - Dark blue: hsl(223, 47%, 23%) */
